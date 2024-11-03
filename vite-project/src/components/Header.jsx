@@ -12,7 +12,7 @@ const HEADER_STYLES = {
 function Header() {
     return (
         <header style={HEADER_STYLES}>
-            <h3>Seletor de Filmes</h3>
+            <h4 style={{margin: '0', padding: '10px'}}>Seletor de Filmes e Carregador de videos difentes</h4>
         </header>
     );
 }

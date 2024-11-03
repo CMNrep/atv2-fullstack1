@@ -4,7 +4,7 @@ const FOOTER_STYLES = {
     width: '100%',
     textAlign: 'center',
     padding: '10px 0',
-    position: 'absolute',
+    position: 'relative',
     bottom: '0',
 }
 
