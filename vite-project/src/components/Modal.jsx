@@ -30,6 +30,10 @@ const CLOSE_BUTTON_STYLE = {
   border: "none",
 };
 
+// https://www.youtube.com/watch?v=N43FMYqRCGU
+// https://www.youtube.com/watch?v=lIPhz8SlwAg
+// https://www.youtube.com/watch?v=3wgZJ8kC9I0
+
 export default function Modal({ isOpen, setOpenModal, children }) {
   if (!isOpen) return null;
 

@@ -94,10 +94,7 @@ class Carrossel extends Component {
           </button>
         </div>
         <div className="link-container">
-          <button className="filePath" onClick={this.openModal2}>{images[currentSlide]}</button>
-          <Modal isOpen={isOpen2} setOpenModal={this.closeModal2}>
-            
-          </Modal>
+          <span className="filePath">{images[currentSlide]}</span>
         </div>
         <div className="link-container">
           <button className="link-trailer" onClick={this.openModal}>

@@ -1,8 +1,16 @@
-import './css/footer.css' 
+const FOOTER_STYLES = {
+    backgroundColor: '#444',
+    color: '#fff',
+    width: '100%',
+    textAlign: 'center',
+    padding: '10px 0',
+    position: 'absolute',
+    bottom: '0',
+}
 
 function Footer () {
     return (
-        <footer>
+        <footer style={FOOTER_STYLES}>
             <h3>Eu Sou O Footer :)</h3>
         </footer>
     );
