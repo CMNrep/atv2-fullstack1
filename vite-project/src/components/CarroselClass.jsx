@@ -98,7 +98,7 @@ class Carrossel extends Component {
         </div>
         <div className="link-container">
           <button className="link-trailer" onClick={this.openModal}>
-            Trailer {name}
+            Assistir Trailer de {name}
           </button>
           <Modal isOpen={isOpen} setOpenModal={this.closeModal}>
             <VideoLoader
